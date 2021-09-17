@@ -16,3 +16,4 @@ Using Makefile you can create library file libft.a
 ## Linked list analysis. Implementation of:
 
 * ft_lstadd_back
+___
