@@ -37,3 +37,4 @@ Purpose: **lst that stores the address of the t_list pointer and a function that
 1. If lst is NULL, return because there is no list to delete, if del is NULL, the contents of lst cannot be freed, so return;
 2. If the del() function is NULL, the function to free the contents of the lst cannot be performed, so return;
 
+![lstclear](https://user-images.githubusercontent.com/84707645/133753403-aec715f1-9b67-40ca-b278-ddcb48df9ada.jpg)
