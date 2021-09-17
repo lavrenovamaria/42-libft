@@ -21,13 +21,13 @@ Difference between *lst == NULL and lst == NULL
 * *lst means the first address of lst, head, so there is no node in the list.
 
 ## Implementation of:
-### * ft_lstadd_back
+###  ft_lstadd_back
 Purpose of ft_lstadd_back is to add a new t_list node to the end of the t_list linked list lst.
 
 ![lstadd_back](https://user-images.githubusercontent.com/84707645/133746743-470f1b56-5242-4cf8-b312-99d8d5ffea8c.jpg)
 
 
-### * ft_lstadd_front
+###  ft_lstadd_front
 Purpose of ft_lstadd_back is to add a t_list node called new to the beginning of the t_list linked list lst.
 
 ![lstadd_front](https://user-images.githubusercontent.com/84707645/133750541-47e69ea3-743c-44f8-a7f3-64b679649149.jpg)
