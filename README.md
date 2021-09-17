@@ -30,5 +30,5 @@ Purpose of ft_lstadd_back is to add a new t_list node to the end of the t_list l
 ### * ft_lstadd_front
 Purpose of ft_lstadd_back is to add a t_list node called new to the beginning of the t_list linked list lst.
 
-![lstadd_front](https://user-images.githubusercontent.com/84707645/133749468-54343983-ca1c-43e5-a7ed-ba1c627bfae1.jpg)
+![lstadd_front](https://user-images.githubusercontent.com/84707645/133750541-47e69ea3-743c-44f8-a7f3-64b679649149.jpg)
 
