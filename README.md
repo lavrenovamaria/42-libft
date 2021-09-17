@@ -12,4 +12,7 @@ Using Makefile you can create library file libft.a
 * `make clean` to clean all object files.
 * `make fclean` to clean libft.a and all object files.
 * `make re` to recompile the library.
-![111](https://user-images.githubusercontent.com/84707645/131868979-9447798f-a379-491b-8cf7-6b3c15059b23.jpg)
+
+## Linked list analysis. Implementation of:
+
+*ft_lstadd_back
