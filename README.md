@@ -20,7 +20,7 @@ Difference between *lst == NULL and lst == NULL
 * If lst is NULL, it means that the list itself does not exist.
 * *lst means the first address of lst, head, so there is no node in the list.
 
-## Implementation of:
+## Implementation of: 
 ###  ft_lstadd_back
 Purpose of ft_lstadd_back is to add a new t_list node to the end of the t_list linked list lst.
 
