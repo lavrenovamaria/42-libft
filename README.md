@@ -36,5 +36,10 @@ Purpose of ft_lstadd_back is to add a t_list node called new to the beginning of
 Purpose: **lst that stores the address of the t_list pointer and a function that deletes the contents of the list, del() A function that receives a pointer as input and deletes the nodes of the list and the contents of the nodes.
 1. If lst is NULL, return because there is no list to delete, if del is NULL, the contents of lst cannot be freed, so return;
 2. If the del() function is NULL, the function to free the contents of the lst cannot be performed, so return;
+3. Delete the contents of lst until lst is not NULL
+4. Before deletion, put the address of the next node in the t_list list(tmp) variable.
+5. Delete the contents of the lst through the del() function.
+6. Substitute the address value of t_list list(tmp) into lst so that lst points to the address of the next node.
+7. Repeat 4, 5, 6.
 
 ![lstclear](https://user-images.githubusercontent.com/84707645/133753403-aec715f1-9b67-40ca-b278-ddcb48df9ada.jpg)
