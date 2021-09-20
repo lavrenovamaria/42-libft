@@ -78,3 +78,9 @@ A function that creates a new linked list by applying the f function to each con
 If lst is NULL, it means that the list is empty. You should use the content of the lst, but since the lst is empty, you can return NULL. This part is not implemented separately, and if lst is NULL, the while statement is not executed node returns NULL.
 The ft_lstnew()use already implemented when creating a new node newnode with the contents of lst . For the ft_lstnew function, see the ft_lstnew implementation of libft.
 
+###  ft_lstmap
+A function to find the length of the linked list received as an argument.
+In the ft_lstsize function, the t_list pointer pointing to the first node of the lstlinked list is , and the length of this linked list should be obtained and returned.
+1. Declare the int type variable size to store the size of the linked list.
+2. Store the next of the lst in size++ and lst until lst is not NULL.
+3. Return size.
