@@ -49,7 +49,7 @@ In the ft_lstdelone function, the t_list pointer pointing to the address of the 
 1. If lst is NULL, it means that the list is empty. In this case, there is no list to delete, so return;
 2. If the del() function is NULL, the function to free the contents of the lst cannot be performed, so return;
 3. Free the contents of the lst through the del function.
-4. Free the lst
+4. Free the lst.
 
 ###  ft_lstnew
 A function that creates a new node by using the variable content received as an argument as the content of the new node. A new node is created by filling the new node's content with the content received as an argument, and NULL for the new node's next.
@@ -76,7 +76,7 @@ A function that applies f to the contents of the t_list pointer lst and all list
 ###  ft_lstmap
 A function that creates a new linked list by applying the f function to each content of the linked list received as a parameter. In case of failure to malloc a new node, the contents of all newly created lsts and lsts are freed.
 If lst is NULL, it means that the list is empty. You should use the content of the lst, but since the lst is empty, you can return NULL. This part is not implemented separately, and if lst is NULL, the while statement is not executed node returns NULL.
-The ft_lstnew()use already implemented when creating a new node newnode with the contents of lst . For the ft_lstnew function, see the ft_lstnew implementation of libft.
+The ft_lstnew() use already implemented when creating a new node newnode with the contents of lst. For the ft_lstnew function, see the ft_lstnew implementation of libft.
 
 ###  ft_lstmap
 A function to find the length of the linked list received as an argument.
@@ -84,3 +84,4 @@ In the ft_lstsize function, the t_list pointer pointing to the first node of the
 1. Declare the int type variable size to store the size of the linked list.
 2. Store the next of the lst in size++ and lst until lst is not NULL.
 3. Return size.
+ 
