@@ -40,5 +40,5 @@ int	ft_atoi(const char *str)
 		res = res * 10 + (*str - 48);
 		++str;
 	}
-	return (res * i);
+	return (res * i); 
 }
